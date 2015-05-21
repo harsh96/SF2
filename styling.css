@@ -34,7 +34,12 @@ a:active
 
 body
 {
-	font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+	background-image: url(background.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+  font-family: Helvetica;
 }
 #complete_wrapper
 {
@@ -47,14 +52,17 @@ body
 {
 	background-color: white;
 	border-bottom: 1px solid #E6E6E6 ;
-	padding-top:30px;
-	padding-bottom: 22px;
-	padding-left: 15%;
-	padding-right: 11%;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 16%;
+	padding-right: 16%;
+	min-width: 1024px;
+
 }
 .links
 {
-font-family: 'Helvetica-Neue';
+ font-family: Helvetica;
+
 float: right;
 padding:15px; 
 
@@ -62,14 +70,14 @@ padding:15px;
 .links ul
 {
 	text-align:center;
-	font-size: 18px;
+	font-size: 14px;
 	
 	list-style: none;
 	
 }
 .links li{
 	display:inline;
-	margin-left:25px;
+	margin-left:20px;
 
 }
 signin
@@ -79,10 +87,11 @@ signin
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  font-family: 'Helvetica-Neue';
+  font-family: Helvetica;
+
   color: #333;
   border: 1px solid #666;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 signup
@@ -93,24 +102,23 @@ signup
   padding-left: 15px;
   padding-right: 15px;
   background-color: #400090;
-  font-family: 'Helvetica-Neue';
+  font-family: Helvetica;
+
   color: white;
   border: 1px solid #666;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 #centre_portion
 {
-	background-image: url(background.jpg);
-    background-position: center; 
-    background-size: cover; 
+
     text-align: center;
     color:white;
 }
 #purple
 {
 	background-image: url(purple.png);
-	width:800px;
+	width:700px;
 
 	margin-top:10%;
 	margin-bottom:15%;
@@ -138,28 +146,37 @@ h2{
   font-size: 18px;
   margin-bottom: 30px;
 }
-go{
+#go{
 	background-color: #400090;
 	color: white;
-	
-	height:54px;
+	font-family: Arial;
+	height:40px;
+	width:90px;
 	font-size: 18px;
-	padding-top:18px;
-	padding-bottom: 18px;
-	padding-right: 30px;
-	padding-left: 30px;
-box-shadow: 0px 12px rgb(204,204,204);
+	padding-top:17px;
+
+	
+	
+
 
 }
 #username{
   font-family: Arial;
   font-size: 20px;
   padding-left: 20px;
+ 
  }
-input{
- 	box-shadow: 0px 11px rgb(204,204,204);
+#search_box{
+background-image: url("input.png");
 
- }
+height:64px;
+ background-repeat: no-repeat;
+ display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-flex: 0;
+margin-left: 60px;
+
+}
  signin a:hover   
 	{
 	 color:black;
@@ -195,31 +212,32 @@ signup a:link
  	 cursor:pointer;
  	 text-decoration: none;
 	}
-go a:hover  
+#go a:hover  
 	{
 	 color:white;
  	 background-color:transparent;
  	 cursor:pointer;
  	 text-decoration: none;
 	}
-go a:active 
+#go a:active 
 	{
 	 color:white;
  	 background-color:transparent;
  	 cursor:pointer;
  	 text-decoration: none;
 	}
-go a:visited
+#go a:visited
 	{
 	 color:white;
  	 background-color:transparent;
  	 cursor:pointer;
  	 text-decoration: none;
 	}
-go a:link
+#go a:link
 	{
 	 color:white;
  	 background-color:transparent;
  	 cursor:pointer;
  	 text-decoration: none;
 	}
+
