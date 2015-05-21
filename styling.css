@@ -22,6 +22,7 @@ a:hover
 	 color:black;
  	 background-color:transparent;
  	 cursor:pointer;
+ 	 text-decoration: underline;
 	}
 a:active  
 	{
@@ -159,3 +160,66 @@ input{
  	box-shadow: 0px 11px rgb(204,204,204);
 
  }
+ signin a:hover   
+	{
+	 color:black;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+	signup a:hover  
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+signup a:active 
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+signup a:visited
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+signup a:link
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+go a:hover  
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+go a:active 
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+go a:visited
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
+go a:link
+	{
+	 color:white;
+ 	 background-color:transparent;
+ 	 cursor:pointer;
+ 	 text-decoration: none;
+	}
